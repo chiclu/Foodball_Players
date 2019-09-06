@@ -1,0 +1,67 @@
+/*GENERAL*/
+
+body{
+	font-family: helvetica;
+	margin: 0;
+	padding: 0;
+}
+
+.header-inner{
+	height: 85px;
+	width: 100%;
+	background-color: #252525;
+}
+
+.logo{
+	width: 50px;
+	margin-left: 50px;
+	margin-top: 5px;
+	position: center;
+}
+
+h1{
+	position: block;
+}
+
+.firstTeam, .bench{
+	width: 1000px;
+	margin: auto;
+}
+
+main {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.firstTeam,
+.bench {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.firstTeam {
+	border-bottom: solid 2px #d80612;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.player {
+	width: 23%;
+    margin-right: 2%;
+    margin-bottom: 25px;
+    background: #fff;
+}
+
+.player img {
+	width: 100%;
+}
+
+.player > p {
+	padding: 0 15px;
+}
+
+.player > p > span {
+	font-weight: bold;
+    color: #eaaa2f
+}
